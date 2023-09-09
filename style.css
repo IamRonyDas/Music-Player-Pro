@@ -93,6 +93,9 @@ nav ul li{
 .timestamp{
     margin: 0 23px;   
 }
+#myProgressBar{
+    margin-bottom: 10px;
+}
 .songItemPlay{
     padding-left: 5px;
 }
