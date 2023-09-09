@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,500&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+    height: 65px;
+    color: white;
+    background-color: black;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    height: 100%;
+    width: 44px;
+    padding: 0 10px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.4 rem;
+    
+}
+.container{
+    min-height: 73vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px; 
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+.buttom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 12px 0;
+}
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 40px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 8px 0;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 32px;
+}
+.songItemContainer{
+    margin-top:74px ;
+}
+.songItem img{
+    width: 38px;
+    margin: 0 18px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.6s ease-in;
+}
