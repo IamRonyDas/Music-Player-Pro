@@ -35,6 +35,10 @@ nav ul li{
     font-size: 1.4 rem;
     
 }
+.songName{
+    font-size:14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .container{
     min-height: 73vh;
     background-color: black;
@@ -87,7 +91,10 @@ nav ul li{
     border-radius: 34px;
 }
 .timestamp{
-    margin: 0 23px;
+    margin: 0 23px;   
+}
+.songItemPlay{
+    padding-left: 5px;
 }
 .timestamp i{
     cursor: pointer;

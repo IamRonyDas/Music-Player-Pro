@@ -12,7 +12,7 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
     {songName: "Gangsta Paradise-Coolio", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
     {songName: "Unstoppable- SIA", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "See You Again- Charlie Puth ft Wizkid", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "See You Again- Charlie Puth ", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "In the End- Linkin Park", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
     {songName: "Janji-Heroes-Tonight-feat-Johnning", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
     {songName: "Love me Like You Do- Ellie Goulding", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
